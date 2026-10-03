@@ -75,4 +75,6 @@ The tests assert both allowed-result preservation and refused-result absence fro
 
 An upstream PR will wait for Mastra maintainer scope approval and the required triage state under [Mastra's contribution rules](https://github.com/mastra-ai/mastra/blob/main/CONTRIBUTING.md). The new supplier example uses existing extension points and makes no core API changes.
 
+The requested upstream scope is tracked in [Mastra issue #25881](https://github.com/mastra-ai/mastra/issues/25881).
+
 This contribution was prepared with AI assistance. It is published by the IsMalicious maintainer account, `hexablob`; that affiliation is intentional and disclosed.
