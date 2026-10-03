@@ -1,0 +1,30 @@
+{
+  "name": "ismalicious-mastra-processor-validation",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "type": "module",
+  "description": "Independent feasibility validation, pending Mastra maintainer approval",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mastra/core": "1.74.0",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@ai-sdk/provider": "2.0.3",
+    "@types/node": "24.10.9",
+    "typescript": "5.9.3",
+    "vitest": "4.0.18"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

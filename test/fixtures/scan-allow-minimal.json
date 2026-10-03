@@ -1,0 +1,12 @@
+{
+  "verdict": "allow",
+  "injection": {
+    "score": 0,
+    "families": [],
+    "spans": []
+  },
+  "links": [],
+  "links_truncated": false,
+  "mode": "fast",
+  "latency_ms": 7
+}

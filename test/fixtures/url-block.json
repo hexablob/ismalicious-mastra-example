@@ -1,0 +1,7 @@
+{
+  "url": "https://example.test/path?a=1,b=2#frag",
+  "entity": "domain:example.test",
+  "verdict": "block",
+  "sources": 2,
+  "latency_ms": 1
+}

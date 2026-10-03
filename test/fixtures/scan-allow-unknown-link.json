@@ -1,0 +1,19 @@
+{
+  "verdict": "allow",
+  "injection": {
+    "score": 0,
+    "families": [],
+    "spans": []
+  },
+  "links": [
+    {
+      "url": "https://example.test/path?a=1,b=2#frag",
+      "entity": "domain:example.test",
+      "verdict": "unknown",
+      "sources": 0
+    }
+  ],
+  "links_truncated": false,
+  "mode": "fast",
+  "latency_ms": 7
+}

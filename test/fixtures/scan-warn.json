@@ -1,0 +1,19 @@
+{
+  "verdict": "warn",
+  "injection": {
+    "score": 0.5,
+    "families": [],
+    "spans": []
+  },
+  "links": [
+    {
+      "url": "https://example.test/path?a=1,b=2#frag",
+      "entity": "domain:example.test",
+      "verdict": "suspicious",
+      "sources": 1
+    }
+  ],
+  "links_truncated": false,
+  "mode": "fast",
+  "latency_ms": 7
+}

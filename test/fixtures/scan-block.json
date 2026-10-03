@@ -1,0 +1,19 @@
+{
+  "verdict": "block",
+  "injection": {
+    "score": 0.99,
+    "families": [],
+    "spans": []
+  },
+  "links": [
+    {
+      "url": "https://example.test/path?a=1,b=2#frag",
+      "entity": "domain:example.test",
+      "verdict": "malicious",
+      "sources": 2
+    }
+  ],
+  "links_truncated": false,
+  "mode": "fast",
+  "latency_ms": 7
+}
